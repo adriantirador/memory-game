@@ -1,4 +1,4 @@
-export interface CardType {
+export type CardType = {
   id: number
   value: string
   matched: boolean
