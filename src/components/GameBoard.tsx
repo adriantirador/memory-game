@@ -6,7 +6,7 @@ import { Box, Typography, Button, Grid } from '@mui/material'
 
 const initialValues = ['🐶', '🐱', '🐰', '🐸', '🐵', '🐷', '🐻', '🦊']
 
-function shuffleArray(array: string[]): CardType[] {
+const shuffleArray = (array: string[]): CardType[] => {
   const doubled = [...array, ...array]
   return doubled
     .map((value, index) => ({
